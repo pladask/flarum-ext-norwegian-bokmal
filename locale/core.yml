@@ -360,10 +360,10 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
+      generic_message: "Oi, noe gikk galt. Last inn siden på nytt og prøv igjen."
       not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      permission_denied_message: Du har ikke tilgang til å gjøre det.
+      rate_limit_exceeded_message: Du går litt for fort fram. Prøv igjen om noen sekunder.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -373,17 +373,17 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second} og {third}"
+      two_text: "{first} og {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: Loading...
+      javascript_disabled_message: Denne siden fungerer best i en moderne nettleser med JavaScript aktivert.
+      load_error_message: En feil oppsto ved innlasting av fullversjonen av denne siden.
+      loading_text: Laster inn …
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -421,27 +421,27 @@ core:
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       body: |
-        Hey {username}!
+        Hei, {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Noen (forhåpentligvis deg!) har skiftet e-postdressen sin på {forum} til denne.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Hvis det var deg, klikk på denne lenken for å bekrefte e-postadressen:
         {url}
 
-        If this was not you, please ignore this email.
-      subject: Confirm Your New Email Address
+        Hvis det ikke var deg, ignorer denne e-posten.
+      subject: Bekreft ny e-postadresse
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       body: |
-        Hey {username}!
+        Hei, {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Noen (forhåpentligvis deg!) har bedt om å tilbakestille passordet ditt på {forum}.
 
-        If this was you, click the following link to reset your password:
+        Hvis det var deg, klikk på denne lenken for å tilbakestille passordet:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Hvis du ikke vil skifte passord, ignorer denne e-posten.
       subject: => core.ref.reset_your_password
 
   ##
