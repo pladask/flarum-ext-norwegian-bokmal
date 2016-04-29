@@ -1,7 +1,7 @@
 {
-    "name": "flarum/flarum-ext-english",
+    "name": "flarum/flarum-ext-norwgegian-bokmal",
     "type": "flarum-extension",
-    "description": "English language pack.",
+    "description": "Norwegian Bokmål language pack.",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
@@ -12,17 +12,17 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "English",
+            "title": "Norwegian Bokmål",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#00247d",
+                "backgroundColor": "#ef2b2d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
         },
         "flarum-locale": {
-            "code": "en",
-            "title": "English"
+            "code": "nb",
+            "title": "Norwegian Bokmål"
         }
     }
 }
