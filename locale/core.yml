@@ -450,35 +450,35 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
+    all_discussions: Alle diskusjoner
+    change_email: Skift e-post
+    change_password: Skift passord
+    confirm_password: Bekreft passord
+    confirmation_email_sent: "Vi har sendt en bekreftelses-e-post til {email}. Hvis den ikke dukker opp snart, sjekk søppelposten din."
+    delete: Slett
+    delete_forever: Slett permanent
+    discussions: Diskusjoner
+    edit: Rediger
+    email: E-post
+    load_more: Last inn mer
+    log_in: Logg inn
+    log_out: Logg ut
+    mark_all_as_read: Merk alle som lest
+    next_page: Neste side
+    notifications: Varsler
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    password: Passord
+    reply: Svar                                  # Referenced by flarum-mentions.yml
+    reset_your_password: Tilbakestill passordet ditt
+    restore: Gjenopprett
+    save_changes: Lagre endringer                # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Innstillinger
+    sign_up: Registrer deg
+    some_others: "{count} annen|{count} andre"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Start en diskusjon
+    username: Brukernavn
+    write_a_reply: Skriv et svar …
+    you: Deg                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -486,11 +486,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: Administrator
+    admins: Administratorer
+    guest: Gjest
+    guests: Gjester
+    member: Medlem
+    members: Medlemmer
+    mod: Moderator
+    mods: Moderatorer
