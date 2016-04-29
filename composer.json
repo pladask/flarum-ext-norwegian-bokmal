@@ -1,5 +1,5 @@
 {
-    "name": "flarum/flarum-ext-norwgegian-bokmal",
+    "name": "pladask/flarum-ext-norwgegian-bokmal",
     "type": "flarum-extension",
     "description": "Norwegian Bokmål language pack.",
     "keywords": ["locale"],
