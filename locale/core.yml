@@ -102,28 +102,28 @@ core:
     permissions:
       allow_renaming_label: La brukere skifte navn på innlegg
       allow_post_editing_label: La brukere redigere innlegg
-      create_heading: Opprette
+      create_heading: Skrive
       delete_discussions_forever_label: Slette diskusjoner permanent
       delete_discussions_label: Slette diskusjoner
       delete_posts_forever_label: Slette innlegg permanent
       edit_and_delete_posts_label: Redigere og slette innlegg
-      global_heading: Global
+      global_heading: Globalt
       moderate_heading: Moderere
       new_group_button: Ny gruppe
       participate_heading: Delta
       read_heading: Lese
       rename_discussions_label: Skifte navn på diskusjoner
       reply_to_discussions_label: Svare på diskusjoner
-      sign_up_label: Registrere seg
+      sign_up_label: Registrering
       start_discussions_label: Starte diskusjoner
       view_discussions_label: Lese diskusjoner
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Alltid
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
+      allow_some_minutes_button: "I {count} minutt|I {count} minutter"
+      allow_ten_minutes_button: I 10 minutter
+      allow_until_reply_button: Til neste svar
       everyone_button: Alle
       members_button: => core.group.members
       signup_closed_button: Lukket
