@@ -87,47 +87,47 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashbord
-      dashboard_text: Your forum at a glance.
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      appearance_button: Utseende
+      appearance_text: "Juster farger, logo og annet."
+      basics_button: Generelt
+      basics_text: "Velg tittel, språk og andre generelle innstillinger."
+      dashboard_button: Oversikt
+      dashboard_text: Informasjon om forumet ditt.
+      extensions_button: Tillegg
+      extensions_text: Legg til funksjoner og gjør forumet til ditt eget.
+      permissions_button: Rettigheter
+      permissions_text: Velg hvem som kan se og gjøre hva.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Allow renaming
-      allow_post_editing_label: Allow post editing
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      edit_and_delete_posts_label: Edit and delete posts
+      allow_renaming_label: La brukere skifte navn på innlegg
+      allow_post_editing_label: La brukere redigere innlegg
+      create_heading: Opprette
+      delete_discussions_forever_label: Slette diskusjoner permanent
+      delete_discussions_label: Slette diskusjoner
+      delete_posts_forever_label: Slette innlegg permanent
+      edit_and_delete_posts_label: Redigere og slette innlegg
       global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
+      moderate_heading: Moderere
+      new_group_button: Ny gruppe
+      participate_heading: Delta
+      read_heading: Lese
+      rename_discussions_label: Skifte navn på diskusjoner
+      reply_to_discussions_label: Svare på diskusjoner
+      sign_up_label: Registrere seg
+      start_discussions_label: Starte diskusjoner
+      view_discussions_label: Lese diskusjoner
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
+      allow_indefinitely_button: Alltid
       allow_some_minutes_button: "For {count} minute|For {count} minutes"
       allow_ten_minutes_button: For 10 minutes
       allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      everyone_button: Alle
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: Lukket
+      signup_open_button: Åpen
 
     # These translations are used in the Settings modal dialog.
     settings:
