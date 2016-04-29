@@ -91,7 +91,7 @@ core:
       appearance_text: "Customize your forum's colors, logos, and other variables."
       basics_button: Basics
       basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
+      dashboard_button: Dashbord
       dashboard_text: Your forum at a glance.
       extensions_button: Extensions
       extensions_text: Add extra functionality to your forum and make it your own.
