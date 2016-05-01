@@ -305,7 +305,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Noen skifter tittel på en diskusjon jeg har startet
-      privacy_disclose_online_label: La andre se når jeg er pålogget
+      privacy_disclose_online_label: La andre se det når jeg er innlogget
       privacy_heading: Personvern
       title: => core.ref.settings
 
@@ -329,7 +329,7 @@ core:
       discussions_link: => core.ref.discussions
       in_discussion_text: "I {discussion}"
       joined_date_text: "Ble medlem for {ago}"
-      online_text: Pålogget
+      online_text: Innlogget
       posts_load_more_button: => core.ref.load_more
       posts_link: Innlegg
       settings_link: => core.ref.settings
