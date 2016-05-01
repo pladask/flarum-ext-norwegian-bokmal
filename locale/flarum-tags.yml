@@ -20,68 +20,68 @@ flarum-tags:
       hide_label: Gjem i alle diskusjoner
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Kodeform
+      slug_label: Kode
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Manage the list of tags available to organise discussions with.
+      tags_text: Organiser emneknagger.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Allow tag editing
-      restrict_by_tag_heading: Restrict by Tag
-      tag_discussions_label: Tag discussions
+      allow_edit_tags_label: Tillat emneknaggredigering
+      restrict_by_tag_heading: Begrens til emneknagg
+      tag_discussions_label: Diskusjoner under emneknagg
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " to "
-      required_primary_heading: Required Number of Primary Tags
-      required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
-      required_secondary_heading: Required Number of Secondary Tags
-      required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
-      title: Tag Settings
+      range_separator_text: " til "
+      required_primary_heading: Laveste antall primærknagger
+      required_primary_text: Oppgi laveste og høyeste antall primærknagger en diskusjon kan ha.
+      required_secondary_heading: Laveste antall sekundærknagger
+      required_secondary_text: Oppgi laveste og høyeste antall sekundærknagger en diskusjon kan ha.
+      title: Emneknagginnstillinger
 
     # These translations are used in the Tags page.
     tags:
       about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Primary Tags
-      secondary_heading: Secondary Tags
-      settings_button: Settings
+      primary_heading: Primærknagger
+      secondary_heading: Sekundærknagger
+      settings_button: Innstillinger
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      choose_primary_placeholder: "Velg en primærknagg|Velg {count} primærknagger"
+      choose_secondary_placeholder: "Velg 1 emneknagg til|Velg {count} emneknagger til"
+      edit_title: "Rediger emneknaggene til {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: Velg emneknagger til diskusjonen din
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: Velg emneknagger
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: Rediger emneknagger
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: Mer …
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: Uten emneknagg
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
+      added_tags_text: "{username} la til {tagsAdded}."
+      added_and_removed_tags_text: "{username} la til {tagsAdded} og fjernet {tagsRemoved}."
+      removed_tags_text: "{username} fjernet {tagsRemoved}."
       tags_text: "{tags} emneknagg|{tags} emneknagger"
 
   # Translations in this namespace are used by the forum and admin interfaces.
