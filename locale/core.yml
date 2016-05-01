@@ -83,7 +83,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Et øyeblikk …
 
     # These translations are used in the navigation bar.
     nav:
@@ -213,33 +213,33 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      not_found_message: Det er ikke registrert noen bruker med den e-postadressen.
+      submit_button: Skift passord
+      text: Skriv inn e-postadressen din, så sender vi deg en lenke du kan følge for å skifte passord.
+      title: Glemt passord
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: Administrasjon
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: Profil
+      search_placeholder: Søk
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: Kan ikke starte diskusjon
+      mark_all_as_read_confirmation: "Er du sikker på at du vil merke alle diskusjoner som lest?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: Oppdater
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
+      latest_button: Sist aktiv
       newest_button: Nyest
       oldest_button: Eldst
       relevance_button: Relevans
@@ -253,19 +253,19 @@ core:
       sign_up_text: "Er du ikke medlem? <a>Registrer deg</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Brukernavn eller e-post
+      username_or_email_placeholder: Brukernavn eller e-postadresse
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} skiftet tittel"
+      empty_text: Ingen varsler
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_tooltip: "{username} edited {ago}"
+      edited_tooltip: "{username} redigerte {ago}"
       number_tooltip: "Innlegg #{number}"
 
     # These translations are used by the post control buttons.
@@ -277,8 +277,8 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
+      now_link: Nå
+      original_post_link: Første innlegg
       unread_text: "{count} ulest(e)"
       viewing_text: "{index} av {count} innlegg|{index} av {count} innlegg"
 
