@@ -198,8 +198,8 @@ core:
       empty_text: Det ser ikke ut til å være noen diskusjoner her.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Merk som lest
-      replied_text: "{username} svarte {ago}"
-      started_text: "{username} startet diskusjonen {ago}"
+      replied_text: "{username} svarte for {ago}"
+      started_text: "{username} startet diskusjonen for {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -265,7 +265,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_tooltip: "{username} redigerte {ago}"
+      edited_tooltip: "{username} redigerte innlegget for {ago}"
       number_tooltip: "Innlegg #{number}"
 
     # These translations are used by the post control buttons.
@@ -328,7 +328,7 @@ core:
       bio_placeholder: Skriv noe om deg selv
       discussions_link: => core.ref.discussions
       in_discussion_text: "I {discussion}"
-      joined_date_text: "Ble medlem {ago}"
+      joined_date_text: "Ble medlem for {ago}"
       online_text: Pålogget
       posts_load_more_button: => core.ref.load_more
       posts_link: Innlegg
