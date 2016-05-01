@@ -36,7 +36,7 @@ flarum-flags:
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      empty_text: Ingen rapporter
+      empty_text: Ingen rapporterte innlegg
       item_text: "{username} i <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
