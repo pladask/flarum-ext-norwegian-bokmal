@@ -15,24 +15,24 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_styles_heading: Custom Styles
+      colored_header_label: Farget topplinje
+      colors_heading: Farger
+      colors_text: "Velg to farger til forumet ditt. Den første brukes til uthevinger, den andre til bakgrunnselementer."
+      custom_styles_heading: Egne stiler
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
-      enter_hex_message: Please enter a hexadecimal color code.
+      dark_mode_label: Mørk modus
+      edit_css_button: Rediger egen CSS
+      enter_hex_message: Legg inn en heksadesimal fargekode.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
+      default_language_heading: Standardspråk
+      forum_description_heading: Beskrivelse av forumet
+      forum_description_text: Legg inn en kort setning som beskriver forumet. Den kommer med i meta-taggen og vises i søkemotorer.
+      forum_title_heading: Forumtittel
+      home_page_heading: Startside
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
       saved_message: Your changes were saved.
       submit_button: => core.ref.save_changes
@@ -239,9 +239,9 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Sist aktiv
-      newest_button: Nyest
-      oldest_button: Eldst
+      latest_button: Sist aktive
+      newest_button: Nyeste
+      oldest_button: Eldste
       relevance_button: Relevans
       top_button: Topp
 
