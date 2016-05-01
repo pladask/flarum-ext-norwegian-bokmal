@@ -35,11 +35,11 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Varsle om alle svar.
+      following_text: Varsle meg om alle svar.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Aldri varsle. Gjem fra diskusjonslisten.
+      ignoring_text: Aldri varsle meg. Gjem fra diskusjonslisten.
       not_following_button: Følger ikke
-      not_following_text: "Be notified only when @mentioned."
+      not_following_text: "Bare varsle meg når jeg blir @nevnt."
       notify_alert_tooltip: Få et forumvarsel når det kommer nye innlegg
       notify_email_tooltip: Få en e-post når det kommer nye innlegg
 
