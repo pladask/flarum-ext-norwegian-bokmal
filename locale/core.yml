@@ -478,7 +478,7 @@ core:
     start_a_discussion: Start en diskusjon
     username: Brukernavn
     write_a_reply: Skriv et svar …
-    you: Deg                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
