@@ -451,7 +451,7 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Alle diskusjoner
-    change_email: Skift e-post
+    change_email: Skift e-postadresse
     change_password: Skift passord
     confirm_password: Bekreft passord
     confirmation_email_sent: "Vi har sendt en bekreftelses-e-post til {email}. Hvis den ikke dukker opp snart, sjekk søppelposten din."
