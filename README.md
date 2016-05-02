@@ -1,4 +1,4 @@
-# Norwegian Language Pack for Flarum
+# Norwegian Bokmål Language Pack for Flarum
 
 ## Installation
 
