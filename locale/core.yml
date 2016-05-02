@@ -9,9 +9,9 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "Hvis du er utvikler, kan du <a>lese dokumentasjonen</a> og lage egne tillegg."
+      install_text: "I mellomtiden kan du se etter tillegg på <a>Flarum-sidene</a> og installere dem manuelt med Composer."
+      temporary_text: "En vakker dag kan du enkelt installere tillegg herfra. Vi jobber med saken!"
 
     # These translations are used in the Appearance page.
     appearance:
@@ -19,7 +19,7 @@ core:
       colors_heading: Farger
       colors_text: "Velg to farger til forumet ditt. Den første brukes til uthevinger, den andre til bakgrunnselementer."
       custom_styles_heading: Egne stiler
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
+      custom_styles_text: Tilpass forumet med egen LESS/CSS i tillegg til standardstilene i Flarum.
       dark_mode_label: Mørk modus
       edit_css_button: Rediger egen CSS
       enter_hex_message: Legg inn en heksadesimal fargekode.
@@ -33,16 +33,16 @@ core:
       forum_description_text: Legg inn en kort setning som beskriver forumet. Den kommer med i meta-taggen og vises i søkemotorer.
       forum_title_heading: Forumtittel
       home_page_heading: Startside
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: Your changes were saved.
+      home_page_text: "Velg hvilken side ser først når de besøker forumet ditt. Hvis du legger inn en egen verdi, skal banen være relativ til forumrotkatalogen."
+      saved_message: Endringene ble lagret.
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: Vignett
+      welcome_banner_text: Velg hva som skal stå i vignetten på siden «Alle diskusjoner». Bruk den til å ønske velkommen.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
+      beta_warning_text: "Denne <strong>betaversjonen</strong> er primært tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikke brukes til noe viktig."
+      contributing_text: "Vil du lete etter programfeil og bidra? Les <a>Contributing docs</a>."
       extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
       support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
