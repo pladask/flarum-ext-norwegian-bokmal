@@ -15,7 +15,7 @@ flarum-mentions:
     notifications:
       others_text: => core.ref.some_others
       post_mentioned_text: "{username} svarte på innlegget ditt"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} markerte deg"
+      user_mentioned_text: "{username} merket deg"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -28,8 +28,8 @@ flarum-mentions:
     # These translations are used in the Settings page.
     settings:
       notify_post_mentioned_label: Noen svarer på et av innleggene mine
-      notify_user_mentioned_label: Noen markerer meg i et innlegg
+      notify_user_mentioned_label: Noen merker meg i et innlegg
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Markeringer
+      mentions_link: Merkinger
