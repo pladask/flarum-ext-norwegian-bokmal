@@ -39,7 +39,7 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Aldri varsle meg. Gjem fra diskusjonslisten.
       not_following_button: Følger ikke
-      not_following_text: "Bare varsle meg når jeg blir @nevnt."
+      not_following_text: "Bare varsle meg når jeg blir @merket."
       notify_alert_tooltip: Få et forumvarsel når det kommer nye innlegg
       notify_email_tooltip: Få en e-post når det kommer nye innlegg
 
