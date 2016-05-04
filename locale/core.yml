@@ -43,7 +43,7 @@ core:
     dashboard:
       beta_warning_text: "Denne <strong>betaversjonen</strong> er primært tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikke brukes til noe viktig."
       contributing_text: "Vil du lete etter programfeil og bidra? Les <a>Contributing docs</a>."
-      extension_text: "Schminterested in developing extensions? Read the <a>Extension docs</a>."
+      extension_text: "Har du lyst til å lage tillegg? Les <a>tilleggsdokumentasjonen</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
       support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
       troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
