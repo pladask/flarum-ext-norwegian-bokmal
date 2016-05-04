@@ -29,7 +29,7 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       forum_follow_after_reply_label: Automatisk følg diskusjoner jeg skriver innlegg i
-      notify_new_post_label: Noen skriver innlegg i en diskusjon jeg følger
+      notify_new_post_label: Noen skriver et innlegg i en diskusjon jeg følger
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:

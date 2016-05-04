@@ -45,10 +45,10 @@ core:
       contributing_text: "Vil du lete etter programfeil og bidra? Les <a>Contributing docs</a>."
       extension_text: "Har du lyst til å lage tillegg? Les <a>tilleggsdokumentasjonen</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "Welcome to Flarum Beta!"
+      support_text: "Har du funnet en feil? Rapporter det i forumet vårt, under <a>brukerstøtte</a>."
+      troubleshooting_text: "Har du problemer? Følg instruksjonene i <a>feilsøkingsdokumentasjonen</a>."
+      version_text: "Takk for at du prøver Flarum! Du kjører versjon {version}."
+      welcome_text: "Velkommen til Flarum Beta!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
