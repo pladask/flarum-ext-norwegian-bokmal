@@ -4,4 +4,12 @@
 
 ## Installation
 
-composer require pladask/flarum-ext-norwegian-bokmal
+`composer require pladask/flarum-ext-norwegian-bokmal`
+
+### Compatibility
+
+- [Flarum](https://github.com/flarum/core) (Core) 0.1.0-beta.5
+
+### License
+
+Released under the MIT License. Please see the [LICENSE](https://github.com/cbmainz/flarum-de/blob/master/LICENSE) file.
