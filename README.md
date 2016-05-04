@@ -12,4 +12,4 @@
 
 ### License
 
-Released under the MIT License. Please see the [LICENSE](https://github.com/cbmainz/flarum-de/blob/master/LICENSE) file.
+Released under the MIT License. Please see the [LICENSE](https://github.com/pladask/flarum-ext-norwegian-bokmal/blob/master/LICENSE) file.
