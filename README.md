@@ -8,7 +8,7 @@
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core) 0.1.0-beta.5
+- [Flarum](http://flarum.org/) 0.1.0-beta.5
 
 ### License
 
