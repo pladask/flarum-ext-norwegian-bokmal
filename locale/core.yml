@@ -42,40 +42,40 @@ core:
     # These translations are used in the Dashboard page.
     dashboard:
       beta_warning_text: "Denne <strong>betaversjonen</strong> er primært tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikke brukes til noe viktig."
-      contributing_text: "Vil du lete etter programfeil og bidra? Les <a>Contributing docs</a>."
-      extension_text: "Har du lyst til å lage tillegg? Les <a>tilleggsdokumentasjonen</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
+      contributing_text: "Vil du lete etter programfeil og bidra? <a>Les mer</a>."
+      extension_text: "Har du lyst til å utvikle tillegg? <a>Les mer</a>."
+      features_text: "Har du forslag til forberdringer? <a>Fortell oss om det</a>."
       support_text: "Har du funnet en feil? Rapporter det i forumet vårt, under <a>brukerstøtte</a>."
-      troubleshooting_text: "Har du problemer? Følg instruksjonene i <a>feilsøkingsdokumentasjonen</a>."
+      troubleshooting_text: "Har du problemer? <a>Les mer om feilsøking</a>."
       version_text: "Takk for at du prøver Flarum! Du kjører versjon {version}."
       welcome_text: "Velkommen til Flarum Beta!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Endre utseendet til forumet ditt ved å legge til din egen LESS/CSS-kode over <a>standardstilene</a>."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: Rediger egen CSS
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      color_label: Farge
+      delete_button: Slett gruppe
+      delete_confirmation: "Er du sikker på at du vil slette denne gruppen? Medlemmene blir IKKE slettet."
+      icon_label: Ikon
+      icon_text: "Skriv inn navnet på en <a>FontAwesome</a>-ikonklasse <em>uten</em> prefikset <code>fa-</code>."
+      name_label: Navn
+      plural_placeholder: Flertall (f.eks. Moderatorer)
+      singular_placeholder: Entall (e.g. Moderator)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: Lag gruppe
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
-      disable_button: Disable
-      enable_button: Enable
+      add_button: Legg til tillegg
+      disable_button: Slå av
+      enable_button: Slå på
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: Avinstaller
 
     # These translations are used in the session dropdown menu.
     header:
@@ -141,14 +141,14 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_label: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: Du skrev inn feil passord.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: Send e-post for å tilbakestille passord.
+      text: Trykk på knappen under og sjekk e-posten din.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -185,7 +185,7 @@ core:
       cannot_reply_button: Kan ikke svare
       cannot_reply_text: Du har ikke rettigheter til å svare i denne diskusjonen.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "Er du sikkre på at du vil slette denne diskusjonen?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Logg inn for å svare
       rename_button: Skift navn
@@ -212,7 +212,7 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
+      email_sent_message: Vi har sendt deg en e-post med en lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikke har fått den innen et minutt eller to.
       not_found_message: Det er ikke registrert noen bruker med den e-postadressen.
       submit_button: Skift passord
       text: Skriv inn e-postadressen din, så sender vi deg en lenke du kan følge for å skifte passord.
@@ -294,7 +294,7 @@ core:
     search:
       all_discussions_button: 'Søk etter "{query}" i alle diskusjoner'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: Brukere
 
     # These translations are used in the Settings page.
     settings:
@@ -338,7 +338,7 @@ core:
     user_controls:
       button: Valg
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "Er du sikker på at du vil slette denne brukeren? Alle innleggene hans/hennes blir slettet."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -399,7 +399,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Reset Password
+      submit_button: Tilbakestill passord
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
@@ -408,15 +408,15 @@ core:
     # These translations are used in emails sent when users register new accounts.
     activate_account:
       body: |
-        Hey {username}!
+        Hei, {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Noen (forhåpentligvis deg!) har registrert seg på {forum} med denne e-postadressen.
 
-        If this was you, simply click the following link and your account will be activated:
+	Hvis det var deg, følg denne lenken for å aktivere kontoen:
         {url}
 
-        If you did not sign up, please ignore this email.
-      subject: Activate Your New Account
+        Hvis det ikke var deg, ignorer denne e-posten.
+      subject: Aktiver kontoen din
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
