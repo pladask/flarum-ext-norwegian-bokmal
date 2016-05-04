@@ -407,7 +407,7 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      body: |
+    body: |
         Hei, {username}!
 
         Noen (forhåpentligvis deg!) har registrert seg på {forum} med denne e-postadressen.
