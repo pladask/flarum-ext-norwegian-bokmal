@@ -477,7 +477,7 @@ core:
     some_others: "{count} annen|{count} andre"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Start en diskusjon
     username: Brukernavn
-    write_a_reply: Skriv et svar …
+    write_a_reply: "Skriv et svar …"
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
