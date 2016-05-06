@@ -65,7 +65,7 @@ core:
       icon_text: "Skriv inn navnet på en <a>FontAwesome</a>-ikonklasse <em>uten</em> prefikset <code>fa-</code>."
       name_label: Navn
       plural_placeholder: Flertall (f.eks. Moderatorer)
-      singular_placeholder: Entall (e.g. Moderator)
+      singular_placeholder: Entall (f.eks. Moderator)
       submit_button: => core.ref.save_changes
       title: Lag gruppe
 
