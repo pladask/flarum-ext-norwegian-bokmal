@@ -9,8 +9,8 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Rapporter innlegg
-      view_flags_label: Vis rapporterte innlegg
+      flag_posts_label: Rapportere innlegg
+      view_flags_label: Vise rapporterte innlegg
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
