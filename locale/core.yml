@@ -318,7 +318,7 @@ core:
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Velkommeen, {username}!"
+      welcome_text: "Velkommen, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
