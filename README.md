@@ -13,3 +13,7 @@
 ### License
 
 Released under the MIT License. Please see the [LICENSE](https://github.com/pladask/flarum-ext-norwegian-bokmal/blob/master/LICENSE) file.
+
+### See also
+
+- [Norwegian Nynorsk Language Pack for Flarum](https://github.com/pladask/flarum-ext-norwegian-nynorsk)
