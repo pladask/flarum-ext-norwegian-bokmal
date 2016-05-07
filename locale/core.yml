@@ -388,7 +388,7 @@ core:
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: Førre side
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
