@@ -169,7 +169,7 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Du har ikke lagret endringene dine. Vil du forkaste dem?"
-      post_link: "Post #{number} in {discussion}"
+      post_link: "Innlegg #{number} i {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
