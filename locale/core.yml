@@ -31,7 +31,7 @@ core:
       default_language_heading: Standardspråk
       forum_description_heading: Beskrivelse av forumet
       forum_description_text: Legg inn en kort setning som beskriver forumet. Den kommer med i meta-taggen og vises i søkemotorer.
-      forum_title_heading: Forumtittel
+      forum_title_heading: Forumnavn
       home_page_heading: Startside
       home_page_text: "Velg hvilken side brukere ser først når de besøker forumet ditt. Hvis du legger inn en egen verdi, skal banen være relativ til forumrotkatalogen."
       saved_message: Endringene ble lagret.
@@ -90,7 +90,7 @@ core:
       appearance_button: Utseende
       appearance_text: "Juster farger, logo og annet."
       basics_button: Generelt
-      basics_text: "Velg tittel, språk og andre generelle innstillinger."
+      basics_text: "Velg navn, språk og andre generelle innstillinger."
       dashboard_button: Oversikt
       dashboard_text: Informasjon om forumet ditt.
       extensions_button: Tillegg
@@ -112,7 +112,7 @@ core:
       new_group_button: Ny gruppe
       participate_heading: Delta
       read_heading: Lese
-      rename_discussions_label: Skifte overskriften til et innlegg
+      rename_discussions_label: Endre overskriften til et innlegg
       reply_to_discussions_label: Svare på en diskusjon
       sign_up_label: Registrering
       start_discussions_label: Starte en diskusjon
@@ -164,7 +164,7 @@ core:
       discard_confirmation: "Du har ikke sendt inn diskusjonen din. Vil du forkaste den?"
       submit_button: Send inn diskusjon
       title: => core.ref.start_a_discussion
-      title_placeholder: Tittel
+      title_placeholder: Overskrift
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -188,8 +188,8 @@ core:
       delete_confirmation: "Er du sikker på at du vil slette denne diskusjonen?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Logg inn for å svare
-      rename_button: Skift navn
-      rename_text: "Skriv inn en ny tittel på denne diskusjonen:"
+      rename_button: Endre overskrift
+      rename_text: "Skriv inn en ny overskrift til denne diskusjonen:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -212,10 +212,10 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Vi har sendt deg en e-post med en lenke du kan følge for å stille om passordet ditt. Sjekk søppelposten din om du ikke har fått den innen et minutt eller to.
+      email_sent_message: Vi har sendt deg en e-post med en lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikke har fått den innen et minutt eller to.
       not_found_message: Det er ikke registrert noen bruker med den e-postadressen.
-      submit_button: Skift passord
-      text: Skriv inn e-postadressen din, så sender vi deg en lenke du kan følge for å skifte passord.
+      submit_button: Endre passord
+      text: Skriv inn e-postadressen din, så sender vi deg en lenke du kan følge for å tilbakestille passordet ditt.
       title: Glemt passord
 
     # These translations are used in the header and session dropdown menu.
@@ -257,7 +257,7 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} skiftet tittel"
+      discussion_renamed_text: "{username} endret overskriften"
       empty_text: Ingen varsler
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -284,8 +284,8 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'Den gamle tittelen var: "{old}"'
-      discussion_renamed_text: "{username} skiftet tittelen til {new}."
+      discussion_renamed_old_tooltip: 'Den gamle overskriften var: "{old}"'
+      discussion_renamed_text: "{username} endret overskriften til {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} senere"
@@ -304,7 +304,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Noen skifter tittel på en diskusjon jeg har startet
+      notify_discussion_renamed_label: Noen endrer overskriften til en diskusjon jeg har startet
       privacy_disclose_online_label: La andre se det når jeg er innlogget
       privacy_heading: Personvern
       title: => core.ref.settings
@@ -423,7 +423,7 @@ core:
       body: |
         Hei, {username}!
 
-        Noen (forhåpentligvis deg!) har skiftet e-postdressen sin på {forum} til denne.
+        Noen (forhåpentligvis deg!) har endret e-postdressen sin på {forum} til denne.
 
         Hvis det var deg, klikk på denne lenken for å bekrefte e-postadressen:
         {url}
@@ -436,12 +436,12 @@ core:
       body: |
         Hei, {username}!
 
-        Noen (forhåpentligvis deg!) har bedt om å stille om passordet ditt på {forum}.
+        Noen (forhåpentligvis deg!) har bedt om å tilbakestille passordet ditt på {forum}.
 
-        Hvis det var deg, klikk på denne lenken for å stille om passordet:
+        Hvis det var deg, klikk på denne lenken for å tilbakestille passordet ditt:
         {url}
 
-        Hvis du ikke vil skifte passord, ignorer denne e-posten.
+        Hvis du ikke vil tilbakestille passordet ditt, ignorer denne e-posten.
       subject: => core.ref.reset_your_password
 
   ##
@@ -451,8 +451,8 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Alle diskusjoner
-    change_email: Skift e-postadresse
-    change_password: Skift passord
+    change_email: Endre e-postadresse
+    change_password: Endre passord
     confirm_password: Bekreft passord
     confirmation_email_sent: "Vi har sendt en bekreftelses-e-post til {email}. Hvis den ikke dukker opp snart, sjekk søppelposten din."
     delete: Slett
