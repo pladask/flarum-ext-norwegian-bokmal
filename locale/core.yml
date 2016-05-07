@@ -147,7 +147,7 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send e-post for å tilbakestille passord.
+      send_button: Send e-post for å stille om passord.
       text: Trykk på knappen under og sjekk e-posten din.
       title: => core.ref.change_password
 
@@ -212,7 +212,7 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Vi har sendt deg en e-post med en lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikke har fått den innen et minutt eller to.
+      email_sent_message: Vi har sendt deg en e-post med en lenke du kan følge for å stille om passordet ditt. Sjekk søppelposten din om du ikke har fått den innen et minutt eller to.
       not_found_message: Det er ikke registrert noen bruker med den e-postadressen.
       submit_button: Skift passord
       text: Skriv inn e-postadressen din, så sender vi deg en lenke du kan følge for å skifte passord.
@@ -399,7 +399,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Tilbakestill passord
+      submit_button: Still om passord
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
@@ -436,9 +436,9 @@ core:
       body: |
         Hei, {username}!
 
-        Noen (forhåpentligvis deg!) har bedt om å tilbakestille passordet ditt på {forum}.
+        Noen (forhåpentligvis deg!) har bedt om å stille om passordet ditt på {forum}.
 
-        Hvis det var deg, klikk på denne lenken for å tilbakestille passordet:
+        Hvis det var deg, klikk på denne lenken for å stille om passordet:
         {url}
 
         Hvis du ikke vil skifte passord, ignorer denne e-posten.
@@ -469,7 +469,7 @@ core:
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Passord
     reply: Svar                                  # Referenced by flarum-mentions.yml
-    reset_your_password: Tilbakestill passordet ditt
+    reset_your_password: Still om passordet ditt
     restore: Gjenopprett
     save_changes: Lagre endringer                # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Innstillinger
