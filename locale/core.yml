@@ -9,7 +9,7 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "Hvis du er utvikler, kan du <a>lese dokumentasjonen</a> og lage egne tillegg."
+      developer_text: "Utviklere kan <a>lese dokumentasjonen</a> og lage egne tillegg."
       install_text: "I mellomtiden kan du se etter tillegg på <a>Flarum-sidene</a> og installere dem manuelt med Composer."
       temporary_text: "En vakker dag kan du enkelt installere tillegg herfra. Vi jobber med saken!"
 
