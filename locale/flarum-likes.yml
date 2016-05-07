@@ -17,7 +17,7 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} liker ditt innlegg"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} liker innlegget ditt"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Noen liker et av mine innlegg
+      notify_post_liked_label: Noen liker et av innleggene mine
