@@ -9,7 +9,7 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Rapportere innlegg
+      flag_posts_label: Rapportere et innlegg
       view_flags_label: Vise rapporterte innlegg
 
     # These translations are used in the Flags Settings modal dialog.
