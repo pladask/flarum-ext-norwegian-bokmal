@@ -100,23 +100,23 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: La brukere skifte navn på innlegg
-      allow_post_editing_label: La brukere redigere innlegg
+      allow_renaming_label: Bytte navn på et innlegg
+      allow_post_editing_label: Redigere et innlegg
       create_heading: Skrive
-      delete_discussions_forever_label: Slette diskusjoner permanent
-      delete_discussions_label: Slette diskusjoner
-      delete_posts_forever_label: Slette innlegg permanent
-      edit_and_delete_posts_label: Redigere og slette innlegg
+      delete_discussions_forever_label: Slette en diskusjon permanent
+      delete_discussions_label: Slette en diskusjon
+      delete_posts_forever_label: Slette et innlegg permanent
+      edit_and_delete_posts_label: Redigere eller slette et innlegg
       global_heading: Globalt
       moderate_heading: Moderere
       new_group_button: Ny gruppe
       participate_heading: Delta
       read_heading: Lese
-      rename_discussions_label: Skifte navn på diskusjoner
-      reply_to_discussions_label: Svare på diskusjoner
+      rename_discussions_label: Skifte overskriften til et innlegg
+      reply_to_discussions_label: Svare på en diskusjon
       sign_up_label: Registrering
-      start_discussions_label: Starte diskusjoner
-      view_discussions_label: Lese diskusjoner
+      start_discussions_label: Starte en diskusjon
+      view_discussions_label: Lese en diskusjon
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
