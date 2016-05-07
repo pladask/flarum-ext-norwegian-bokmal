@@ -33,7 +33,7 @@ core:
       forum_description_text: Legg inn en kort setning som beskriver forumet. Den kommer med i meta-taggen og vises i søkemotorer.
       forum_title_heading: Forumtittel
       home_page_heading: Startside
-      home_page_text: "Velg hvilken side ser først når de besøker forumet ditt. Hvis du legger inn en egen verdi, skal banen være relativ til forumrotkatalogen."
+      home_page_text: "Velg hvilken side brukere ser først når de besøker forumet ditt. Hvis du legger inn en egen verdi, skal banen være relativ til forumrotkatalogen."
       saved_message: Endringene ble lagret.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Vignett
