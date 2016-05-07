@@ -9,8 +9,8 @@ flarum-approval:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      approve_posts_label: Godkjennee innlegg
-      reply_without_approval_label: Svare uten å godkjenne
+      approve_posts_label: Godkjenne innlegg
+      reply_without_approval_label: Svare på innlegg som ikke er godkjent
 
   # Translations in this namespace are used by the forum user interface.
   forum:
