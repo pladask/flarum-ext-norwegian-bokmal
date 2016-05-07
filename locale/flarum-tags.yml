@@ -33,7 +33,7 @@ flarum-tags:
     permissions:
       allow_edit_tags_label: Tillat emneknaggredigering
       restrict_by_tag_heading: Begrens til emneknagg
-      tag_discussions_label: Diskusjoner under emneknagg
+      tag_discussions_label: Legge til emneknagg i diskusjon
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
