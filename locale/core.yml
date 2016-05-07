@@ -185,7 +185,7 @@ core:
       cannot_reply_button: Kan ikke svare
       cannot_reply_text: Du har ikke rettigheter til å svare i denne diskusjonen.
       delete_button: => core.ref.delete
-      delete_confirmation: "Er du sikkre på at du vil slette denne diskusjonen?"
+      delete_confirmation: "Er du sikker på at du vil slette denne diskusjonen?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Logg inn for å svare
       rename_button: Skift navn
