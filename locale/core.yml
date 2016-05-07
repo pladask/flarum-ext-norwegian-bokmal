@@ -382,7 +382,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: Denne siden fungerer best i en moderne nettleser med JavaScript aktivert.
-      load_error_message: En feil oppsto ved innlasting av fullversjonen av denne siden.
+      load_error_message: Noe gikk galt da fullversjonen av denne siden skulle lastes inn.
       loading_text: Laster inn …
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
