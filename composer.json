@@ -2,7 +2,7 @@
     "name": "pladask/flarum-ext-norwegian-bokmal",
     "type": "flarum-extension",
     "description": "Norwegian Bokmål language pack.",
-    "keywords": ["locale", "norwegian", "bokmål", "no", "nb"],
+    "keywords": ["locale", "language", "norwegian", "bokmål", "no", "nb"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.5"
