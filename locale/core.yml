@@ -12,17 +12,28 @@ core:
       developer_text: "Utviklere kan <a>lese dokumentasjonen</a> og lage egne tillegg."
       install_text: "I mellomtiden kan du se etter tillegg på <a>Flarum-sidene</a> og installere dem manuelt med Composer."
       temporary_text: "En vakker dag kan du enkelt installere tillegg herfra. Vi jobber med saken!"
+      title: Legg til et tillegg
 
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Farget topplinje
       colors_heading: Farger
       colors_text: "Velg to farger til forumet ditt. Den første brukes til uthevinger, den andre til bakgrunnselementer."
+      custom_footer_heading: Tilpasset Bunntekst
+      custom_footer_text: => core.ref.custom_footer_text
+      custom_header_heading: Tilpasset Topptekst
+      custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Egne stiler
       custom_styles_text: Tilpass forumet med egen LESS/CSS i tillegg til standardstilene i Flarum.
       dark_mode_label: Mørk modus
       edit_css_button: Rediger egen CSS
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Legg inn en heksadesimal fargekode.
+      favicon_heading: Favicon
+      favicon_text: Last opp et bilde som skal brukes som Favicon på forumet.
+      logo_heading: Logo
+      logo_text: Last opp et bilde som skal brukes som logo istedet for en tittel.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -35,26 +46,27 @@ core:
       home_page_heading: Startside
       home_page_text: "Velg hvilken side brukere ser først når de besøker forumet ditt. Hvis du legger inn en egen verdi, skal banen være relativ til forumrotkatalogen."
       saved_message: Endringene ble lagret.
+      show_language_selector_label: Vis valg av språk
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Vignett
       welcome_banner_text: Velg hva som skal stå i vignetten på siden «Alle diskusjoner». Bruk den til å ønske velkommen.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Denne <strong>betaversjonen</strong> er primært tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikke brukes til noe viktig."
-      contributing_text: "Vil du lete etter programfeil og bidra? <a>Les mer</a>."
-      extension_text: "Har du lyst til å utvikle tillegg? <a>Les mer</a>."
-      features_text: "Har du forslag til forberdringer? <a>Fortell oss om det</a>."
-      support_text: "Har du funnet en feil? Rapporter det i forumet vårt, under <a>brukerstøtte</a>."
-      troubleshooting_text: "Har du problemer? <a>Les mer om feilsøking</a>."
-      version_text: "Takk for at du prøver Flarum! Du kjører versjon {version}."
-      welcome_text: "Velkommen til Flarum Beta!"
+      clear_cache_button: Slette Mellomlager
+      tools_button: Verktøy
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Endre utseendet til forumet ditt ved å legge til din egen LESS/CSS-kode over <a>standardstilene</a>."
       submit_button: => core.ref.save_changes
       title: Rediger egen CSS
+
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -69,11 +81,39 @@ core:
       submit_button: => core.ref.save_changes
       title: Lag gruppe
 
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: => core.ref.custom_header_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_header_title
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      addresses_heading: Addresser
+      driver_heading: Velg en driver
+      driver_label: Driver
+      from_label: Sender
+      heading: => core.ref.email
+      mail_encryption_label: Kryptering
+      mail_host_label: Server
+      mail_mailgun_domain_label: Domene
+      mail_mailgun_secret_label: Secret key
+      mail_mandrill_secret_label: Secret key
+      mail_password_label: => core.ref.password
+      mail_port_label: Port
+      mail_ses_key_label: Nøkkel
+      mail_ses_region_label: Region
+      mail_ses_secret_label: Hemmelighet
+      mail_username_label: => core.ref.username
+      mailgun_heading: Mailgun Settings
+      mandrill_heading: Mandrill Settings
+      ses_heading: SES Settings
+      smtp_heading: SMTP Settings
+      submit_button: => core.ref.save_changes
+      text: Velg driver, innstillinger og adresser ditt forum vil bruke for å sende epost.
     # These translations are used in the Extensions page.
     extensions:
       add_button: Legg til tillegg
-      disable_button: Slå av
-      enable_button: Slå på
       settings_button: => core.ref.settings
       uninstall_button: Avinstaller
 
@@ -93,20 +133,24 @@ core:
       basics_text: "Velg navn, språk og andre generelle innstillinger."
       dashboard_button: Oversikt
       dashboard_text: Informasjon om forumet ditt.
+      email_button: => core.ref.email
+      email_text: "Endre innstillinger for epost på ditt forum"
       extensions_button: Tillegg
-      extensions_text: Legg til funksjoner og gjør forumet til ditt eget.
+      extensions_text: Legg til funksjoner og tilpass forumet.
       permissions_button: Rettigheter
-      permissions_text: Velg hvem som kan se og gjøre hva.
+      permissions_text: Velg rettigheter.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Bytte navn på et innlegg
       allow_post_editing_label: Redigere et innlegg
+      allow_renaming_label: Bytte navn på et innlegg
       create_heading: Skrive
       delete_discussions_forever_label: Slette en diskusjon permanent
       delete_discussions_label: Slette en diskusjon
       delete_posts_forever_label: Slette et innlegg permanent
-      edit_and_delete_posts_label: Redigere eller slette et innlegg
+      delete_posts_label: Slette Innlegg
+      edit_posts_label: Redigere ennlegg
+      edit_users_label: Redigere brukere
       global_heading: Globalt
       moderate_heading: Moderere
       new_group_button: Ny gruppe
@@ -117,6 +161,9 @@ core:
       sign_up_label: Registrering
       start_discussions_label: Starte en diskusjon
       view_discussions_label: Lese en diskusjon
+      view_last_seen_at_label: Alltid vis bruker sist sett
+      view_post_ips_label: Se innleggets IP
+      view_user_list_label: Se Bruker oversikt
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -133,13 +180,18 @@ core:
     settings:
       submit_button: => core.ref.save_changes
 
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: => core.ref.remove
+      upload_button: Velg et bilde...
+
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
+      confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: Du skrev inn feil passord.
       submit_button: => core.ref.save_changes
@@ -157,6 +209,7 @@ core:
       exit_full_screen_tooltip: Avslutt fullskjerm
       full_screen_tooltip: Fullskjerm
       minimize_tooltip: Minimer
+      preview_tooltip: Preview
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -189,7 +242,6 @@ core:
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Logg inn for å svare
       rename_button: Endre overskrift
-      rename_text: "Skriv inn en ny overskrift til denne diskusjonen:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -203,9 +255,16 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: Aktivere Bruker
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: Grupper
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: Sett nytt passord
       submit_button: => core.ref.save_changes
+      title: Redigere Bruker
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -221,6 +280,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administrasjon
+      back_to_index_tooltip: Tilbake til Forum oversikt
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
@@ -250,6 +310,7 @@ core:
       forgot_password_link: "Glemt passordet?"
       invalid_login_message: Feil brukernavn eller passord.
       password_placeholder: => core.ref.password
+      remember_me_label: Husk meg
       sign_up_text: "Er du ikke medlem? <a>Registrer deg</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -260,11 +321,13 @@ core:
       discussion_renamed_text: "{username} endret overskriften"
       empty_text: Ingen varsler
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      mark_as_read_tooltip: Merk som Lest
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
+      edited_text: Endret
       edited_tooltip: "{username} redigerte innlegget for {ago}"
       number_tooltip: "Innlegg #{number}"
 
@@ -290,6 +353,11 @@ core:
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} senere"
 
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      submit_button: => core.ref.rename
+      title: Endre tittel på diskusjon
+
     # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: 'Søk etter "{query}" i alle diskusjoner'
@@ -311,8 +379,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "Er du allerede medlem? <a>Logg inn</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -325,13 +393,13 @@ core:
       avatar_remove_button: Slett
       avatar_upload_button: Last opp
       avatar_upload_tooltip: Last opp ny avatar
-      bio_placeholder: Skriv noe om deg selv
       discussions_link: => core.ref.discussions
       in_discussion_text: "I {discussion}"
       joined_date_text: "Ble medlem for {ago}"
       online_text: Innlogget
+      posts_empty_text: Det finnes ingen innlegg.
+      posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
-      posts_link: Innlegg
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -339,6 +407,8 @@ core:
       button: Valg
       delete_button: => core.ref.delete
       delete_confirmation: "Er du sikker på at du vil slette denne brukeren? Alle innleggene hans/hennes blir slettet."
+      delete_error_message: "Sletting av bruker <i>{username} ({email})</i> feilet"
+      delete_success_message: "Bruker <i>{username} ({email})</i> ble slettet"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -353,10 +423,6 @@ core:
     # These translations are displayed as tooltips for discussion badges.
     badge:
       hidden_tooltip: Skjult
-
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[slettet]"
 
     # These translations are displayed as error messages.
     error:
@@ -376,6 +442,10 @@ core:
       three_text: "{first}, {second} og {third}"
       two_text: "{first} og {second}"
 
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[deleted]"
+
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
@@ -390,23 +460,46 @@ core:
       next_page_button: => core.ref.next_page
       previous_page_button: Førre side
 
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      csrf_token_mismatch: Du har vært inaktiv for lenge.
+      csrf_token_mismatch_return_link: Gå tilbake og prøv igjen
+      invalid_confirmation_token: Denne bekreftelses lenken er allerede brukt eller er ikke gyldig.
+      not_authenticated: Du har ikke tilgang til denne siden. Prøv igjen når du er logget inn.
+      not_found: Siden du forespurte kan ikke hentes.
+      not_found_return_link: "Returner til {forum}"
+      permission_denied: Du har ikke rettighet til denne siden.
+      unknown: En feil oppstod ved lasting av siden.
+
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Er du sikker på at du vil logge ut av {forum}?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
-      confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: Still om passord
+    reset_password:
+      confirm_password_label: Bekreft nytt passord
+      new_password_label: Nytt passord
+      submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
+
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "Brukernavn kan kun inneholde bokstaver, tall og bindestreker."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
+      subject: Aktivere din nye konto
       body: |
         Hei, {username}!
 
@@ -420,6 +513,7 @@ core:
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
+      subject: Bekreft din nye epost adresse
       body: |
         Hei, {username}!
 
@@ -433,6 +527,7 @@ core:
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
+      subject: => core.ref.reset_your_password
       body: |
         Hei, {username}!
 
@@ -453,13 +548,20 @@ core:
     all_discussions: Alle diskusjoner
     change_email: Endre e-postadresse
     change_password: Endre passord
+    color: Farge                                 # Referenced by flarum-tags.yml
     confirm_password: Bekreft passord
     confirmation_email_sent: "Vi har sendt en bekreftelses-e-post til {email}. Hvis den ikke dukker opp snart, sjekk søppelposten din."
+    custom_footer_text: Legg til HTML kode som skal vises i bunnteksten.
+    custom_footer_title: Legg til tilpasset bunntekst
+    custom_header_text: "Legg til HTML kode som skal vises over logo."
+    custom_header_title: Redigere tilpasset topptekst
     delete: Slett
     delete_forever: Slett permanent
     discussions: Diskusjoner
     edit: Rediger
     email: E-post
+    icon: Icon
+    icon_text: "Legg inn nytt navn på en <a>FontAwesome</a> ikon klasse, <em>inkludert</em> <code>fas fa-</code> prefix'en."
     load_more: Last inn mer
     log_in: Logg inn
     log_out: Logg ut
@@ -468,6 +570,10 @@ core:
     notifications: Varsler
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Passord
+    posts: Innlegg                                 # Referenced by flarum-statistics.yml
+    previous_page: Forrige Side
+    remove: Slette
+    rename: Gi nytt navn
     reply: Svar                                  # Referenced by flarum-mentions.yml
     reset_your_password: Still om passordet ditt
     restore: Gjenopprett
@@ -477,6 +583,7 @@ core:
     some_others: "{count} annen|{count} andre"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Start en diskusjon
     username: Brukernavn
+    users: Brukere                                 # Referenced by flarum-statistics.yml
     write_a_reply: "Skriv et svar …"
     you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 

@@ -13,12 +13,16 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} suspended you for {timeReadable}"
+      user_unsuspended_text: "{username} unsuspended you"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: Sperr permanent
-      limited_time_label: Sperr i en periode …
       limited_time_days_text: " dager"
+      limited_time_label: Sperr i en periode …
       not_suspended_label: Ikke sperret
       status_heading: Status for sperring
       submit_button: => core.ref.save_changes
