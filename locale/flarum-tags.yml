@@ -13,11 +13,13 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Farge
+      color_label: => core.ref.color
       delete_tag_button: Slett emneknagg
       delete_tag_confirmation: "Er du sikker på at du vil slette emneknaggen? Tilhørende diskusjoner blir IKKE slettet."
       description_label: Beskrivelse
       hide_label: Gjem i alle diskusjoner
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Kode
@@ -71,6 +73,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Rediger emneknagger
 
+    header:
+      back_to_tags_tooltip: Tilbake til emneknagger
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Mer …
@@ -79,8 +84,8 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} la til {tagsAdded}."
       added_and_removed_tags_text: "{username} la til {tagsAdded} og fjernet {tagsRemoved}."
+      added_tags_text: "{username} la til {tagsAdded}."
       removed_tags_text: "{username} fjernet {tagsRemoved}."
       tags_text: "{tags} emneknagg|{tags} emneknagger"
 
