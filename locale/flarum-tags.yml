@@ -74,7 +74,7 @@ flarum-tags:
       edit_tags_button: Rediger emneknagger
 
     header:
-      back_to_tags_tooltip: Back to Tag List
+      back_to_tags_tooltip: Tilbake til emneknagger
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
